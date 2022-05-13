@@ -1,0 +1,33 @@
+﻿
+.naCheckBox {
+    display: inline-block;
+}
+
+    .naCheckBox > div {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        background-color: [neutral-2-background-color];
+        cursor: pointer;
+        border-radius: 3px;
+        vertical-align: middle;
+        border: 1px solid #444;
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0.37, 0.76);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0.37, 0.76);
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0.37, 0.76);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0.37, 0.76);
+    }
+
+        .naCheckBox > div.wsChecked {
+            background-image: url("/manager/file/app/1/editor/icon/check.svg?color1=r255g255b255");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 80% auto;
+            background-color: [main-1-background-color];
+        }
+
+    .naCheckBox > label {
+        vertical-align: middle;
+        margin-left: 10px;
+        cursor: pointer;
+    }
